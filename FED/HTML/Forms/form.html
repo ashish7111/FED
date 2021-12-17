@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title> Sample Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <form>
+            <div class="contents">
+                <div class="header">
+                    <h3 class="head">Sign up</h3>
+                </div>
+            <div >
+                <label class="form" for="fname" >First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter First Name">
+            </div>
+            <div>
+
+                <label class="form" for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+
+            </div>
+            <div>
+
+                <label class="form" for="sname">Screen Name</label>
+                <input type="text" id="sname" name="sname" placeholder="Enter Screen Name">
+
+            </div>
+            <div >
+
+                <label  class="form" for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+
+            </div>
+            <div>
+
+                <label class="form">Gender</label>
+                <input type="radio" id="male" name="gender"> Male
+                <input type="radio" id="female" name="gender"> Female             
+
+            </div>
+            <div >
+                <label class="form" for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="select" selected>Select</option>
+                    <option value="USA">USA</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                    <option value="China">China</option>
+                    <option value="Germany">Germany</option>
+                    <option value="UK">UK</option>
+                </select>
+
+            </div>
+        
+
+                <label class="form"for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter Email..........">
+
+            <div>
+
+                <label class="form" for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone........">
+
+            </div>
+            <div>
+
+                <label class="form" for="pw">Password</label>
+                <input type="password" id="pw" name="pw">
+
+            </div>
+            <div >
+
+                <label class="form" for="vpw">Confirm Password</label>
+                <input type="password" id="vpw" name="vpw">
+
+            </div>
+            <div>
+                <input type="checkbox" id="term" name="term">
+                <label class="form" for="term"><p id="terms">I agree to the term of Use</p></label>               
+
+            </div>
+            <div class="footer">
+                <button type="button" id="submit">Submit</button>
+                <button type="button" id="cancel">Cancel</button>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

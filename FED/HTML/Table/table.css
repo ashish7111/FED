@@ -1,0 +1,143 @@
+table, td, th{
+    border: solid 2px rgb(33, 209, 209);
+    background-color: blanchedalmond;
+    text-align: center;
+}
+th{
+    color: crimson;
+    background-color: darkseagreen;
+}
+.head {
+    background-color: white;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 18px;background-color: white;color:#282A35;
+    font-family: 'Sans Pro', sans-serif;
+    text-align: justify, center;
+    height: 69px;
+}
+.head ul i {
+    font-size: 25px;
+}
+.head ul li {
+
+    display: inline-block;
+    list-style-type: none;
+    padding-left:12px;padding-right:16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+.head ul {
+    padding: 0px;
+    display: inline-block;
+    margin: 0px;
+    
+}
+body{
+    margin: 0px;
+    background-color: aqua;
+}
+
+#head-right {
+    float: right;
+    padding-top: 12px;
+    padding-right: 36PX;
+    
+}
+#head-right li{
+    border: solid 1px;
+    border-color: white;
+    border-radius: 50px;
+    padding: 10px;
+}
+.head ul span{
+    border: solid 1px;
+    border-radius: 25px;
+    font-size: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: white ;
+}
+.head ul span:hover {
+    background-color: white;
+}
+
+.head ul li:hover{
+    background-color:  #39ac73;
+
+}
+
+.top-nav ul li:hover {
+    background-color: black;
+}
+.top-nav ul i:hover {
+    background-color: black;
+}
+.head ul i {
+    padding: 10px;
+    padding-left:12px;padding-right:16px;
+}
+.top-nav {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    background-color: #353b3a;
+    color: #f1f1f1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-nav ul {
+    display: inline-block;
+    margin: 0px;
+    padding: 0;
+}
+.top-nav ul li {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+
+.top-nav ul i{
+    font-size: 25px;
+    color: cornsilk;
+}
+
+#nav-right {
+    float: right;
+    padding-right: 20px;
+}
+
+#nav-right li i {
+    font-size: 25px;
+    color: white;
+    line-height: 50px ;
+    padding: 0 12px;
+}
+
+.left-top-nav li {
+    padding: 16px 12px;
+    line-height: 50px;
+}
+.top-nav i{
+    padding: 0 32px;
+    line-height: 50px;
+}
+.top-nav i:hover{
+    background-color: black;
+}
+#web {
+    background-color: pink;
+}
+#web:hover{
+    background-color: rgb(4, 170, 109);
+}
+
+#log {
+    background-color: rgb(14, 179, 111);
+}
+#log:hover {
+    background-color: rgb(4, 170, 109);
+}
+
+
